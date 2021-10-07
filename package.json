@@ -1,12 +1,13 @@
 {
   "name": "@r2n/ui",
   "version": "0.0.1",
+  "author": {"name": "Andres Artunduaga", "email": "andres.artunduaga@outlook.com" },
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
-  "module": "dist/custom-elements/index.js",
+  "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
-  "types": "dist/custom-elements/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/r2n-ui/r2n-ui.esm.js",
@@ -26,6 +27,7 @@
     "yarn": "^1.22.15"
   },
   "devDependencies": {
+    "@stencil/angular-output-target": "^0.2.0",
     "@stencil/sass": "^1.5.0",
     "@types/jest": "^26.0.24",
     "jest": "^26.6.3",

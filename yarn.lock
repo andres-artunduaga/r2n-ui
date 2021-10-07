@@ -504,6 +504,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stencil/angular-output-target@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@stencil/angular-output-target/-/angular-output-target-0.2.0.tgz#7a8236cf520b8d461ae16d3590b9abdcda0499fe"
+  integrity sha512-Ptr5vigf8v+EnF9Y9LXTKimcVPfB9arC5FnSuKt5ZdNQ8IATWGLx4fhoD2/LThhkPwG9QtjDj9A4GPidu0Fomg==
+
 "@stencil/core@^2.7.0":
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.8.1.tgz#21b15c115d9a5e2f56379774fcbd9bc947bf336f"
@@ -3605,6 +3610,11 @@ yargs@^15.4.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.15:
+  version "1.22.15"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.15.tgz#3431d5f134d3c752a57a9dd7f5e1167627ca3cc3"
+  integrity sha512-AzoEDxj256BOS/jqDXA3pjyhmi4FRBBUMgYoTHI4EIt2EhREkvH0soPVEtnD+DQIJfU5R9bKhcZ1H9l8zPWeoA==
 
 yauzl@^2.10.0:
   version "2.10.0"
