@@ -12,12 +12,12 @@ export const config: Config = {
   outputTargets: [
     reactOutputTarget({
       componentCorePackage: '@r2n/ui',
-      proxiesFile: '../r2n-components-react/src/components.ts',
+      proxiesFile: '../r2n-components-react/src/generated/components.ts',
       includeDefineCustomElements: true,
     }),
     angularOutputTarget({
       componentCorePackage: '@r2n/ui',
-      directivesProxyFile: '../r2n-components-angular/src/directives/proxies.ts',
+      directivesProxyFile: '../r2n-components-angular/src/generated/directives/proxies.ts',
       valueAccessorConfigs: angularValueAccessorBindings,
     }),
     {
