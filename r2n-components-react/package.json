@@ -7,6 +7,10 @@
   "dependencies": {
     "@r2n/ui": "^0.1.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-artunduaga/r2n-ui.git"
+  },
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf dist",
