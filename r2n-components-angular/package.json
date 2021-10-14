@@ -21,7 +21,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "tslib": "^2.3.0"
   },
