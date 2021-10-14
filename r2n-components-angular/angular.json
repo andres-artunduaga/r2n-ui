@@ -3,9 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test": {
+    "r2n-components-angular": {
       "projectType": "library",
-      "root": "projects/test",
+      "root": "./",
       "sourceRoot": "src",
       "prefix": "lib",
       "architect": {
@@ -35,5 +35,5 @@
       }
     }
   },
-  "defaultProject": "test"
+  "defaultProject": "r2n-components-angular"
 }

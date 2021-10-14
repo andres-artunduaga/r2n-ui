@@ -22,8 +22,8 @@
     ],
     "paths": {
       "test": [
-        "dist/test/test",
-        "dist/test"
+        "dist/test",
+        "dist/"
       ]
     }
   },
