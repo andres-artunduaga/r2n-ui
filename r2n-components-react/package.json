@@ -1,6 +1,6 @@
 {
   "name": "@r2n/ui-react",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "r2n react component library",
   "author": "Andres Artunduaga",
   "license": "MIT",
@@ -12,9 +12,9 @@
     "url": "git+https://github.com/andres-artunduaga/r2n-ui.git"
   },
   "scripts": {
-    "build": "npm run clean && npm run compile",
+    "build": "yarn clean && yarn compile",
     "clean": "rm -rf dist",
-    "compile": "npm run tsc",
+    "compile": "yarn tsc",
     "tsc": "tsc -p .",
     "rollup": "rollup -c"
   },
