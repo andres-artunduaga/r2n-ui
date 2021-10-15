@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@r2n/ui-angular",
-  "version": "0.1.12",
+  "version": "0.1.20",
   "description": "r2n angular component library",
   "author": "Andres Artunduaga",
   "license": "MIT",
@@ -9,9 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/andres-artunduaga/r2n-ui.git"
   },
-  "files": [
-    "dist/"
-  ],
   "ngPackage": {
     "lib": {
       "entryFile": "index.ts"
@@ -19,15 +16,24 @@
   },
   "scripts": {
     "build": "ng-packagr -p package.json",
-    "deploy": "yarn build && npm publish dist --access=public"
+    "deploy": "npm publish ./dist --access=public"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.9",
+    "@angular/animations": "~12.2.0",
     "@angular/cli": "~12.2.9",
+    "@angular/common": "~12.2.0",
+    "@angular/compiler": "~12.2.0",
     "@angular/compiler-cli": "~12.2.0",
+    "@angular/core": "~12.2.0",
+    "@angular/forms": "~12.2.0",
+    "@angular/platform-browser": "~12.2.0",
+    "@angular/platform-browser-dynamic": "~12.2.0",
+    "@angular/router": "~12.2.0",
+    "@r2n/ui": "0.1.1",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.8.0",
@@ -36,7 +42,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "ng-packagr": "^12.1.1",
+    "ng-packagr": "12.2.2",
     "typescript": "~4.3.5"
   },
   "peerDependencies": {
