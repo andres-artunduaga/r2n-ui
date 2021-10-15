@@ -1,6 +1,7 @@
 {
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@r2n/ui-angular",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "r2n angular component library",
   "author": "Andres Artunduaga",
   "license": "MIT",
@@ -8,15 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/andres-artunduaga/r2n-ui.git"
   },
-  "module": "fesm2015/r2n-ui-angular.js",
-  "main": "bundles/r2n-ui-angular.umd.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "ngPackage": {
     "lib": {
-      "entryFile": "src/index.ts"
+      "entryFile": "index.ts"
     }
   },
   "scripts": {
