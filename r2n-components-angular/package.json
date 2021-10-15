@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@r2n/ui-angular",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "description": "r2n angular component library",
   "author": "Andres Artunduaga",
   "license": "MIT",
@@ -18,7 +18,8 @@
     }
   },
   "scripts": {
-    "build": "ng-packagr -p package.json"
+    "build": "ng-packagr -p package.json",
+    "deploy": "yarn build && npm publish dist --access=public"
   },
   "dependencies": {
     "tslib": "^2.3.0"
