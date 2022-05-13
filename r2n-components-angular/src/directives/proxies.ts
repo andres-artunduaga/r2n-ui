@@ -23,3 +23,19 @@ export class MyComponent {
     this.el = r.nativeElement;
   }
 }
+
+
+export declare interface R2nButton extends Components.R2nButton {}
+
+@Component({
+  selector: 'r2n-button',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: '<ng-content></ng-content>'
+})
+export class R2nButton {
+  protected el: HTMLElement;
+  constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
+    c.detach();
+    this.el = r.nativeElement;
+  }
+}
