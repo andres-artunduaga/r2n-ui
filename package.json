@@ -35,5 +35,9 @@
     "jest-cli": "^27.5.1",
     "puppeteer": "^19.5.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "volta:": {
+    "node": "v18.16.0",
+    "npm": "v9.5.1"
+  }
 }
