@@ -5,20 +5,12 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { ButtonSize, Variant } from "./types";
+export { ButtonSize, Variant } from "./types";
 export namespace Components {
     interface R2nButton {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+        "size": ButtonSize;
+        "variant": Variant;
     }
 }
 declare global {
@@ -34,18 +26,8 @@ declare global {
 }
 declare namespace LocalJSX {
     interface R2nButton {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+        "size"?: ButtonSize;
+        "variant"?: Variant;
     }
     interface IntrinsicElements {
         "r2n-button": R2nButton;

@@ -1,32 +1,18 @@
 import { Component, Prop, h } from '@stencil/core';
-import { format } from '../../utils/utils';
+import { ButtonSize, Variant } from '../../types';
 
 @Component({
   tag: 'r2n-button',
   styleUrl: 'button.scss',
   shadow: true,
 })
-export class MyComponent {
-  /**
-   * The first name
-   */
-  @Prop() first: string;
+export class Button {
+ 
+  @Prop() size: ButtonSize;
 
-  /**
-   * The middle name
-   */
-  @Prop() middle: string;
-
-  /**
-   * The last name
-   */
-  @Prop() last: string;
-
-  private getText(): string {
-    return format(this.first, this.middle, this.last);
-  }
+  @Prop() variant: Variant;
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <button><slot/></button>;
   }
 }

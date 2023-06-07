@@ -5,6 +5,10 @@ export const config: Config = {
   namespace: 'r2n-ui',
   outputTargets: [
     {
+      type: 'docs-vscode',
+      file: 'vscode-data.json',
+    },
+    {
       type: 'dist',
       esmLoaderPath: '../loader',
     },
