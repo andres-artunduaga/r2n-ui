@@ -6,12 +6,12 @@ export const config: Config = {
   namespace: 'stencil-library',
   outputTargets: [
     angularOutputTarget({
-      componentCorePackage: 'stencil-library',
+      componentCorePackage: '@r2n/ui',
       directivesProxyFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts',
       directivesArrayFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts',
     }),
     reactOutputTarget({
-      componentCorePackage: 'stencil-library',
+      componentCorePackage: '@r2n/ui',
       proxiesFile: '../react-library/lib/components/stencil-generated/index.ts',
     }),
     {
