@@ -10,6 +10,9 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/stencil-library/stencil-library.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Andres Artunduaga",
     "email": "andres.artunduaga@outlook.com"
