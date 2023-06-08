@@ -7,4 +7,4 @@ import type { JSX } from 'stencil-library';
 
 
 
-export const MyComponent = /*@__PURE__*/createReactComponent<JSX.MyComponent, HTMLMyComponentElement>('my-component');
+export const R2nButton = /*@__PURE__*/createReactComponent<JSX.R2nButton, HTMLR2nButtonElement>('r2n-button');

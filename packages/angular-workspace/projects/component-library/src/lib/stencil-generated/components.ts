@@ -8,16 +8,15 @@ import { Components } from 'stencil-library';
 
 
 @ProxyCmp({
-  inputs: ['first', 'last', 'middle']
 })
 @Component({
-  selector: 'my-component',
+  selector: 'r2n-button',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: '<ng-content></ng-content>',
   // eslint-disable-next-line @angular-eslint/no-inputs-metadata-property
-  inputs: ['first', 'last', 'middle'],
+  inputs: [],
 })
-export class MyComponent {
+export class R2nButton {
   protected el: HTMLElement;
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
@@ -26,6 +25,6 @@ export class MyComponent {
 }
 
 
-export declare interface MyComponent extends Components.MyComponent {}
+export declare interface R2nButton extends Components.R2nButton {}
 
 
